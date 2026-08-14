@@ -73,6 +73,11 @@ main h1 {
     width: 150px;
     border-radius: 10px;
     margin: 0 auto;
+    transition: transform 0.2s ease;
+}
+
+#acesso figure img:hover {
+    transform: scale(1.05)
 }
 
 #acesso figcaption {
@@ -130,6 +135,12 @@ section figure#vasos img {
     border-radius: 80px;
     margin: 0px 0;
     box-shadow: 0px 0px 10px 2px #7de0e9;
+    transition: transform 0.2s ease, box-shadow 0.1s ease;
+}
+
+#vasos img:hover {
+    transform: scale(1.05);
+    box-shadow: none;
 }
 
 figure#i1, figure#i2, figure#i3 {
@@ -140,14 +151,14 @@ figure#i1, figure#i2, figure#i3 {
 }
 
 figure#i1 {
-    background-image: url(i1-removebg-preview.png);
+    background-image: url(imagens/i1-removebg-preview.png);
     width: 437px;
     height: 571px;
     
 }
 
 figure#i2 {
-    background-image: url(i2-removebg-preview.png);
+    background-image: url(imagens/i2-removebg-preview.png);
     width: 612px;
     height: 408px;
     transform: rotate(90deg);
@@ -156,7 +167,7 @@ figure#i2 {
 }
 
 figure#i3 {
-    background-image: url(i3-removebg-preview.png);
+    background-image: url(imagens/i3-removebg-preview.png);
     width: 464px;
     height: 538px;
     bottom: -250px;
