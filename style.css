@@ -23,6 +23,10 @@ body{
     z-index: -3;
 }
 
+a {
+    
+}
+
 main{
     background-color: #f1fffe;
     max-width: 1000px;
@@ -41,6 +45,25 @@ main h1 {
     /*text-shadow: -1px -0px 1px #252c3183;*/
     padding: 20px 0px;
 
+}
+
+#acesso {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+}
+
+#acesso figure img {
+    display: block;
+    width: 150px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#acesso figcaption {
+    color: #88a1c5;
+    font-style: italic;
 }
 
 section{
@@ -114,33 +137,4 @@ figure#i3 {
     bottom: -250px;
     right: -220px;
 
-}
-
-img {
-    width: 80px;
-    position: absolute;
-    display: none;
-}
-
-img#i1 {
-    top: 89%;
-    width: 50px;
-
-}
-
-img#i2 {
-    top: 20%;
-    right: 7%;
-    width: 60px;
-    /*transform: rotate(-30deg);*/
-}
-
-img#i3 {
-    top: 10%;
-}
-
-img#i4 {
-    top: 2%;
-    right: 5%;
-    transform: rotate(15deg);
 }
