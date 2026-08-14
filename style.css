@@ -24,7 +24,19 @@ body{
 }
 
 a {
-    
+    color: #058ED9;
+}
+
+a:visited {
+    color: #058ED9;
+}
+
+a:hover {
+    color: #1d3557;
+}
+
+a:active {
+    color: #f1fffe;
 }
 
 main{
@@ -52,6 +64,8 @@ main h1 {
     flex-flow: column nowrap;
     align-items: center;
     align-content: center;
+    gap: 10px;
+    margin: 20px 0;
 }
 
 #acesso figure img {
@@ -68,11 +82,11 @@ main h1 {
 
 section{
     display: flex;
-    height: 1000px;
-    
+    height: 2000px;
     padding: 25px 10vw;
     flex-flow: column nowrap;
     justify-content: space-around;
+    align-items: center;
     /*gap: 4em;*/
     /*border: 2px dashed black;*/
     z-index: 0;
@@ -95,16 +109,27 @@ section p {
     text-indent: 1em;
     text-align: center;
     color: #1d3557;
+    max-width: 600px;
 }
 
 section ul {
     font-size: 0.85em;
     color: #1d3557;
-    margin-left: 2em;
+    margin-left: 40px;
 }
 
 section li {
     margin-bottom: 0.5em;
+}
+
+section figure#vasos img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border: 5px solid #7de0e9;
+    border-radius: 80px;
+    margin: 0px 0;
+    box-shadow: 0px 0px 10px 2px #7de0e9;
 }
 
 figure#i1, figure#i2, figure#i3 {
@@ -137,4 +162,11 @@ figure#i3 {
     bottom: -250px;
     right: -220px;
 
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #f1faee;
+    width: 60%;
+    border-top-right-radius: 20px;
 }
