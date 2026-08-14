@@ -116,6 +116,7 @@ section p {
     text-align: center;
     color: #1d3557;
     max-width: 600px;
+    line-height: 1.5em;
 }
 
 section ul {
