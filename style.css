@@ -1,0 +1,146 @@
+@charset "UFT-8";
+
+/*000501 - preto
+058ED9 - azul
+a8dadc - azul mais claro
+1d3557 - azul mais escuro
+e63946 - vermelho
+f1faee - branco
+5B9279 - verde passado*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    font-family: Roboto;
+    background-color: #a8dadc;
+    z-index: -3;
+}
+
+main{
+    background-color: #f1fffe;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    z-index: -2;
+    position: relative;
+    overflow: hidden;
+}
+
+main h1 {
+    color: #7bf0fd;
+    text-transform: uppercase;
+    padding-left: 0.5em;
+    text-align: center;
+    /*text-shadow: -1px -0px 1px #252c3183;*/
+    padding: 20px 0px;
+
+}
+
+section{
+    display: flex;
+    height: 1000px;
+    
+    padding: 25px 10vw;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    /*gap: 4em;*/
+    /*border: 2px dashed black;*/
+    z-index: 0;
+
+    
+}
+
+section h2{
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #5B9279;
+    text-decoration: underline solid #7de0e9 2.5px;
+    margin-bottom: 0.5em;
+}
+
+section p {
+    font-size: 0.85em;
+    text-indent: 1em;
+    text-align: center;
+    color: #1d3557;
+}
+
+section ul {
+    font-size: 0.85em;
+    color: #1d3557;
+    margin-left: 2em;
+}
+
+section li {
+    margin-bottom: 0.5em;
+}
+
+figure#i1, figure#i2, figure#i3 {
+    position: absolute;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+figure#i1 {
+    background-image: url(i1-removebg-preview.png);
+    width: 437px;
+    height: 571px;
+    
+}
+
+figure#i2 {
+    background-image: url(i2-removebg-preview.png);
+    width: 612px;
+    height: 408px;
+    transform: rotate(90deg);
+    top: 30%;
+    right: -102px;
+}
+
+figure#i3 {
+    background-image: url(i3-removebg-preview.png);
+    width: 464px;
+    height: 538px;
+    bottom: -250px;
+    right: -220px;
+
+}
+
+img {
+    width: 80px;
+    position: absolute;
+    display: none;
+}
+
+img#i1 {
+    top: 89%;
+    width: 50px;
+
+}
+
+img#i2 {
+    top: 20%;
+    right: 7%;
+    width: 60px;
+    /*transform: rotate(-30deg);*/
+}
+
+img#i3 {
+    top: 10%;
+}
+
+img#i4 {
+    top: 2%;
+    right: 5%;
+    transform: rotate(15deg);
+}
