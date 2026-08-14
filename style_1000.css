@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+section {
+    display: grid;
+    grid-template: 2fr 1fr 1fr 2fr / 1fr 1fr;
+    height: 1200px;
+    gap: 10px;
+}
+
+section figure#vasos {
+    grid-row: 2 / 4;
+    grid-column-start: 2;
+    margin-left: 40px;
+}

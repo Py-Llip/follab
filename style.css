@@ -89,6 +89,7 @@ section{
     display: flex;
     height: 2000px;
     padding: 25px 10vw;
+    padding-top: 0;
     flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
