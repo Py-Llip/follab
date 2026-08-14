@@ -42,7 +42,7 @@ a:active {
 main{
     background-color: #f1fffe;
     max-width: 1000px;
-    margin: auto;
+    margin: 30px auto;
     border-radius: 10px;
     z-index: -2;
     position: relative;
